@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kontak Kami</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet"/>
+  <style>
+    body { font-family: 'Poppins', sans-serif; background-color: #f8f9fa; }
+    .form-section { padding: 60px 0; }
+    .form-control:focus { box-shadow: none; border-color: #007bff; }
+    footer { background: #343a40; color: white; }
+  </style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">Katalog Digital</a>
+    <ul class="navbar-nav ms-auto">
+      <li class="nav-item"><a class="nav-link" href="index.html">Beranda</a></li>
+      <li class="nav-item"><a class="nav-link" href="katalog.html">Katalog</a></li>
+      <li class="nav-item"><a class="nav-link active" href="contact.html">Kontak</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- FORM KONTAK -->
+<section class="form-section">
+  <div class="container">
+    <h2 class="text-center mb-4">Hubungi Kami</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <form>
+          <div class="mb-3">
+            <label for="nama" class="form-label">Nama</label>
+            <input type="text" class="form-control" id="nama" placeholder="Nama lengkap" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Alamat email" required>
+          </div>
+          <div class="mb-3">
+            <label for="pesan" class="form-label">Pesan</label>
+            <textarea class="form-control" id="pesan" rows="4" placeholder="Tulis pesan..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary w-100">Kirim Pesan</button>
+        </form>
+        <div class="text-center mt-3">
+          <p class="text-muted">Atau hubungi langsung via <a href="https://wa.me/62xxxxxxx">WhatsApp</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="text-center py-3">
+  <div class="container">
+    <p class="mb-0">&copy; 2025 Katalog Produk Digital</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
