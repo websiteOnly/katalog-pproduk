@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kontak Kami</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet"/>
+
+ <script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-TX2W2SCD');
+  </script>
+
+  <style>
+    body { font-family: 'Poppins', sans-serif; background-color: #f8f9fa; }
+    .form-section { padding: 60px 0; }
+    .form-control:focus { box-shadow: none; border-color: #007bff; }
+    footer { background: #343a40; color: white; }
+  </style>
+</head>
+<body>
+
+    <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TX2W2SCD"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">Katalog Digital</a>
+    <ul class="navbar-nav ms-auto">
+      <li class="nav-item"><a class="nav-link" href="index.html">Beranda</a></li>
+      <li class="nav-item"><a class="nav-link" href="katalog.html">Katalog</a></li>
+      <li class="nav-item"><a class="nav-link active" href="contact.html">Kontak</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- FORM KONTAK -->
+<section class="form-section">
+  <div class="container">
+    <h2 class="text-center mb-4">Hubungi Kami</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <form>
+          <div class="mb-3">
+            <label for="nama" class="form-label">Nama</label>
+            <input type="text" class="form-control" id="nama" placeholder="Nama lengkap" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Alamat email" required>
+          </div>
+          <div class="mb-3">
+            <label for="pesan" class="form-label">Pesan</label>
+            <textarea class="form-control" id="pesan" rows="4" placeholder="Tulis pesan..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary w-100">Kirim Pesan</button>
+        </form>
+        <div class="text-center mt-3">
+          <p class="text-muted">Atau hubungi langsung via <a href="https://wa.me/62xxxxxxx">WhatsApp</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="text-center py-3">
+  <div class="container">
+    <p class="mb-0">&copy; 2025 Katalog Produk Digital</p>
+  </div>
+</footer>
+
+<div class="container my-5">
+  <h5 class="text-center">Saran & Masukan</h5>
+  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfContohFormID/viewform?embedded=true" width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0">Memuat…</iframe>
+</div>
+
+<script>
+  window.onload = function () {
+    let chat = document.createElement("a");
+    chat.href = "https://wa.me/6281234567890";
+    chat.target = "_blank";
+    chat.innerHTML = `<img src="https://img.icons8.com/fluency/48/000000/whatsapp.png" style="position: fixed; bottom: 20px; right: 20px; z-index: 999;">`;
+    document.body.appendChild(chat);
+  };
+</script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>AOS.init();</script>
+
+</body>
+</html>
+

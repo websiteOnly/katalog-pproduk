@@ -1,0 +1,18 @@
+.navbar.bg-dark {
+  background: linear-gradient(-45deg, #0f2699, purple, blue, black);
+  background-size: 400% 400%;
+  animation: changeColor 5s ease infinite;
+}
+
+@keyframes changeColor {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+footer {
+  margin-top: 50px;
+}
